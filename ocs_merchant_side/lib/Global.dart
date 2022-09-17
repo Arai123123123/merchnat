@@ -1,0 +1,18 @@
+library globals;
+import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
+import 'package:amplify_flutter/amplify_flutter.dart';
+String currentuseremail='';
+String currentusername='';
+String currentpassword='';
+String currentphonenumber = '';
+String currentpermission='';
+String currentcompanyname='';
+String currentaddress = '';
+String currentpostaladdress = '';
+String currentabnstatus = '';
+int currentabnnumber = 0;
+String currentaddresslatitude = '';
+String currentaddresslongtitude = '';
+String currentstarttime = '';
+String currentOrderState='Confirm';
+bool isSignedin=false;
